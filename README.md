@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](http://127.0.0.1:3000/Basics HTML & CSS/Result Summary Content/results-summary-component-main/results-summary-component-main/index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://birumj.github.io/Result-summary-component/))
 
 ## My process
 
