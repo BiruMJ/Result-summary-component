@@ -1,0 +1,34 @@
+* { margin: 0;padding: 0;font-size: 1rem; }
+body { height: 100svh; display: flex; justify-content: center;flex-direction: column; align-items: center; font-family: "Hanken Grotesk", sans-serif; font-weight: normal; }
+.component { display: flex; justify-content: center }
+.result { max-width: 35%; background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)); padding: 30px 20px; border-radius: 20px; color: hsl(0, 0%, 100%); text-align: center }
+.result h2 { font-size: 18px; font-weight: 700; color: hsl(241, 100%, 89%) }
+.score { width: 150px; height: 150px; margin: 30px auto; border-radius: 100%; background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%, 0.5), hsla(241, 72%, 46%, 0)); display: flex; flex-direction: column; align-items: center; justify-content: center }
+.score span { font-size: 3.5rem; font-weight: 700 }
+.score p { font-size: 14px; color: hsl(241, 100%, 89%); font-weight: 500 }
+.grade { font-size: 1.5rem; font-weight: 500 }
+.info { color: hsl(241, 100%, 89%); padding-top: 20px; max-width: 85%; margin: 0 auto }
+.summary { width: 35%; background: hsl(0, 0%, 100%); padding: 30px 20px; border-radius: 0 20px 20px 0; box-shadow: 5px 10px 10px 0px hsl(221, 100%, 96%) }
+.summary h2 { font-size: 18px; font-weight: 700 }
+.summary ul { list-style: none; margin: 20px 0 }
+.summary ul li { border-radius: 10px; display: flex; align-items: center; justify-content: space-between; padding: 10px; margin: 10px 0 }
+.summary li img { padding: 5px; padding-right: 10px }
+.points { display: inline-block; color: hsl(224, 30%, 70%); font-weight: 700 }
+.points span { font-weight: 700; color: hsl(224, 30%, 27%) }
+.category { display: flex; align-items: center; font-weight: 500 }
+.bg-1 { background-color: hsla(0, 100%, 67%, 0.05); color: hsl(0, 100%, 67%) }
+.bg-2 { color: hsl(39, 100%, 56%); background-color: hsla(39, 100%, 56%, 0.05) }
+.bg-3 { color: hsl(166, 100%, 37%); background-color: hsla(166, 100%, 37%, 0.05) }
+.bg-4 { color: hsl(234, 85%, 45%); background-color: hsla(234, 85%, 45%, 0.05) }
+button { background-color: hsl(224, 30%, 27%); color: hsl(0, 0%, 100%); width: 100%; margin: 10px 0; text-align: center; padding: 15px; border-radius: 30px; border-style: none; font-size: 14px; font-weight: 550 }
+button:hover { cursor: pointer; background-color: hsla(224, 30%, 27%, 0.9) }
+.attribution { font-size: 11px; text-align: center; margin: 50px 0 20px; }
+.attribution a { color: hsl(228, 45%, 44%); transition: 0.1s ease; }
+.attribution a:hover { color: hsl(228, 47%, 27%); font-weight: 800; }
+@media (max-width: 426px) and (min-width: 300px) {
+    body { height: auto }
+    .component { flex-direction: column }
+    .result { max-width: 100%; padding-bottom: 40px; border-radius: 0 0 20px 20px }
+    .summary { width: auto }
+    button { padding: 20px; font-size: 1rem }
+}
