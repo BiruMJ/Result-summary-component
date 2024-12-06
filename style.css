@@ -8,7 +8,7 @@ body { height: 100svh; display: flex; justify-content: center;flex-direction: co
 .score p { font-size: 14px; color: hsl(241, 100%, 89%); font-weight: 500 }
 .grade { font-size: 1.5rem; font-weight: 500 }
 .info { color: hsl(241, 100%, 89%); padding-top: 20px; max-width: 85%; margin: 0 auto }
-.summary { width: 35%; background: hsl(0, 0%, 100%); padding: 30px 20px; border-radius: 0 20px 20px 0; box-shadow: 5px 10px 10px 0px hsl(221, 100%, 96%) }
+.summary { width: 35%; background: hsl(0, 0%, 100%); padding: 30px 20px; border-radius: 0 20px 20px 0; box-shadow: 15px 25px 20px 0px hsl(221, 100%, 96%) }
 .summary h2 { font-size: 18px; font-weight: 700 }
 .summary ul { list-style: none; margin: 20px 0 }
 .summary ul li { border-radius: 10px; display: flex; align-items: center; justify-content: space-between; padding: 10px; margin: 10px 0 }
@@ -21,7 +21,7 @@ body { height: 100svh; display: flex; justify-content: center;flex-direction: co
 .bg-3 { color: hsl(166, 100%, 37%); background-color: hsla(166, 100%, 37%, 0.05) }
 .bg-4 { color: hsl(234, 85%, 45%); background-color: hsla(234, 85%, 45%, 0.05) }
 button { background-color: hsl(224, 30%, 27%); color: hsl(0, 0%, 100%); width: 100%; margin: 10px 0; text-align: center; padding: 15px; border-radius: 30px; border-style: none; font-size: 14px; font-weight: 550 }
-button:hover { cursor: pointer; background-color: hsla(224, 30%, 27%, 0.9) }
+button:hover { cursor: pointer;background: linear-gradient(hsl(256, 72%, 46%), hsl(241, 81%, 54%), hsl(241, 72%, 46%)); }
 .attribution { font-size: 11px; text-align: center; margin: 50px 0 20px; }
 .attribution a { color: hsl(228, 45%, 44%); transition: 0.1s ease; }
 .attribution a:hover { color: hsl(228, 47%, 27%); font-weight: 800; }
