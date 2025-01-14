@@ -2,7 +2,7 @@
 body { height: 100svh; display: flex; justify-content: center;flex-direction: column; align-items: center; font-family: "Hanken Grotesk", sans-serif; font-weight: normal; }
 .component { display: flex; justify-content: center }
 .result { max-width: 35%; background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)); padding: 30px 20px; border-radius: 20px; color: hsl(0, 0%, 100%); text-align: center }
-.result h1 { font-size: 18px; font-weight: 700; color: hsl(241, 100%, 89%) }
+.result h1 { font-size: 20px; font-weight: 700; color: hsl(241, 100%, 89%) }
 .score { width: 150px; height: 150px; margin: 30px auto; border-radius: 100%; background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%, 0.5), hsla(241, 72%, 46%, 0)); display: flex; flex-direction: column; align-items: center; justify-content: center }
 .score span { font-size: 3.5rem; font-weight: 700 }
 .score p { font-size: 14px; color: hsl(241, 100%, 89%); font-weight: 500 }
